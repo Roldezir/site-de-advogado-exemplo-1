@@ -1,0 +1,2108 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.tomDeFundo{
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 90%;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 30%;
+    box-sizing: border-box;
+    position: absolute;
+    top: -8%;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(0, 99, 138);
+    box-sizing: border-box;
+    position: absolute;
+    top: 40%;
+    font-size: 300%;
+}
+h2{
+    box-sizing: border-box;
+    position: absolute;
+    top: 48%;
+}
+p{
+    box-sizing: border-box;
+    position: absolute;
+    top: 60%;
+    margin-inline: 28%;
+    text-align: center;
+}
+h3{
+    box-sizing: border-box;
+    position: absolute;
+    top: 75%;
+    background-color: rgb(0, 255, 115);
+    width: 13%;
+    text-align: center;
+    height: 4%;
+    line-height: 180%;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease;
+    color: white;
+    animation: fadeIn 1s;
+}
+.whatsappLogo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 10%;
+    top: 14%;
+    left: 80%;
+}
+h3:hover{
+    width: 15%;
+    height: 5%;
+    font-size: 150%;
+    top: 74%;
+    background-color: aliceblue;
+    color: rgb(0, 255, 115);
+}
+
+
+.barraQuemSou{
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgb(255, 217, 0);
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 40px rgba(255, 255, 0, 0.788);
+    display: flex;
+    justify-content: center;
+}
+.tituloQuemSou{
+    box-sizing: border-box;
+    position: absolute;
+    top: 5%;
+}
+.nomeQuemSou{
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 170%;
+    color: rgb(0, 99, 138);
+}
+.oabQuemSou{
+    box-sizing: border-box;
+    position: absolute;
+    top: 24%;
+    left: 20.1%;
+    font-size: 100%;
+}
+.paragrafoQuemSou{
+    box-sizing: border-box;
+    position: absolute;
+    text-align: left;
+    left: -8%;
+    top: 30%;
+    margin-right: 50%;
+    font-size: 130%;
+}
+.fotoAdvogado{
+    box-sizing: border-box;
+    position: absolute;
+    width: 32%;
+    top: 3.7%;
+    left: 50%;
+}
+
+
+.fachadaAdvocacia{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: -10%;
+    z-index: -1;
+}
+.barraEndereco{
+    box-sizing: border-box;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tituloEndereco{
+    box-sizing: border-box;
+    position: absolute;
+    top: 15%;
+}
+.mapaEndereco{
+    box-sizing: border-box;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.subtituloEndereco{
+    box-sizing: border-box;
+    position: absolute;
+    top: 35%;
+}
+.paragrafoEndereco{
+    box-sizing: border-box;
+    position: absolute;
+    top: 45%;
+    text-align: left;
+}
+.barraEndereco{
+    box-sizing: border-box;
+    position: absolute;
+    top: 195%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.barraServico{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 217, 0);
+    box-shadow: 0px 0px 40px rgba(255, 255, 0, 0.788);
+    top: 290%;
+    justify-content: center;
+    display: flex;
+}
+.tituloServico{
+    box-sizing: border-box;
+    position: absolute;
+    top: 7%;
+}
+.servico{
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.788);
+}
+.servico1{
+    left: 20%;
+    background-color: white;
+    width: 10%;
+    height: 25%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ts1{
+    top: 0%;
+}
+.ps1{
+    top: 25%;
+}
+.servico2{
+    left: 45%;
+    background-color: white;
+    width: 10%;
+    height: 25%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ts2{
+    top: 0%;
+}
+.ps2{
+    top: 25%;
+}
+.servico3{
+    left: 70%;
+    background-color: white;
+    width: 10%;
+    height: 25%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ts3{
+    top: 0%;
+}
+.ps3{
+    top: 25%;
+}
+.servico4{
+    left: 20%;
+    top: 65%;
+    background-color: white;
+    width: 10%;
+    height: 25%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ts4{
+    top: 0%;
+}
+.ps4{
+    top: 25%;
+}
+.servico5{
+    left: 45%;
+    top: 65%;
+    background-color: white;
+    width: 10%;
+    height: 25%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ts5{
+    top: 0%;
+}
+.ps5{
+    top: 25%;
+}
+.servico6{
+    left: 70%;
+    top: 65%;
+    background-color: white;
+    width: 10%;
+    height: 25%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ts6{
+    top: 0%;
+}
+.ps6{
+    top: 25%;
+}
+
+
+footer{
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    top: 400%;
+}
+.tituloRedes{
+    top: 0%;
+}
+.fotoCelular{
+    box-sizing: border-box;
+    position: absolute;
+    width: 35%;
+    top: 13%;
+    left: 52%;
+}
+.redes1{
+    width: 25%;
+    height: 6%;
+    font-size: 200%;
+    line-height: 150%;
+    top: 25%;
+    left: 30%;
+    background-color: #ff0095;
+    color: white;
+}
+.imgRedes1{
+    width: 8%;
+}
+.redes1:hover{
+    width: 30%;
+    height: 7%;
+    left: 28%;
+    font-size: 250%;
+    top: 23%;
+    background-color: aliceblue;
+    color: rgb(255, 0, 149);
+}
+.redes2{
+    width: 25%;
+    height: 6%;
+    font-size: 200%;
+    line-height: 150%;
+    top: 35%;
+    left: 30%;
+}
+.imgRedes2{
+    width: 8%;
+}
+.redes2:hover{
+    width: 30%;
+    height: 7%;
+    left: 28%;
+    font-size: 250%;
+    top: 33%;
+    background-color: aliceblue;
+    color: rgb(0, 255, 115);
+}
+.redes3{
+    width: 25%;
+    height: 6%;
+    font-size: 200%;
+    line-height: 150%;
+    top: 45%;
+    left: 30%;
+    background-color: #0059ff;
+    color: white;
+}
+.imgRedes3{
+    width: 8%;
+}
+.redes3:hover{
+    width: 30%;
+    height: 7%;
+    left: 28%;
+    font-size: 250%;
+    top: 44%;
+    background-color: aliceblue;
+    color: #0059FF;
+}
+.redes4{
+    width: 25%;
+    height: 6%;
+    font-size: 200%;
+    line-height: 150%;
+    top: 55%;
+    left: 30%;
+    background-color: #0099ff;
+    color: white;
+}
+.imgRedes4{
+    width: 8%;
+}
+.redes4:hover{
+    width: 30%;
+    height: 7%;
+    left: 28%;
+    font-size: 250%;
+    top: 55%;
+    background-color: aliceblue;
+    color: #0099ff;
+}
+.criador{
+    box-sizing: border-box;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+
+.hidden .hidden1 .hidden2 .hidden3 .hidden4 .hidden5 .hidden6 .hidden7 .hidden8{
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:1680px) and (max-height:1050px) {
+    .whatsappLogo{
+        position: absolute;
+        left: 82%;
+        top: 20%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 13%;
+    }
+    .subtituloEndereco{
+        left: 50%;
+    }
+    .paragrafoEndereco{
+        left: 22%;
+    }
+}
+@media screen and (max-width:1600px) and (max-height:900px) {
+    h2{
+        top: 51%;
+    }
+    h3{
+        line-height: 150%;
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 82%;
+        top: 15%;
+    }
+    .tituloQuemSou{
+        top: 1%;
+    }
+    .nomeQuemSou{
+        top: 15%;
+    }
+    .oabQuemSou{
+        top: 20%;
+    }
+    .paragrafoQuemSou{
+        top: 25%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 1%;
+    }
+    .mapaEndereco{
+        top: 26%;
+    }
+    .tituloEndereco{
+        top: 7%;
+    }
+    .subtituloEndereco{
+        left: 50%;
+        top: 25%;
+    }
+    .paragrafoEndereco{
+        left: 22%;
+        top: 35%;
+    }
+    .tituloServico{
+        top: 2%;
+    }
+    .servico{
+        top: 22%;
+        height: 30%;
+    }
+    .servico4{
+        top: 60%;
+    }
+    .servico5{
+        top: 60%;
+    }
+    .servico6{
+        top: 60%;
+    }
+    .tituloRedes{
+        top: -5%;
+    }
+    .redes1{
+        line-height: 110%;
+    }
+    .redes2{
+        line-height: 110%;
+    }
+    .redes3{
+        line-height: 110%;
+    }
+    .redes4{
+        line-height: 110%;
+    }
+}
+@media screen and (max-width:1440px) and (max-height:900px) {
+    h2{
+        top: 51%;
+    }
+    h3{
+        line-height: 150%;
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 85%;
+        top: 15%;
+    }
+    .tituloQuemSou{
+        top: 1%;
+    }
+    .nomeQuemSou{
+        top: 15%;
+    }
+    .oabQuemSou{
+        top: 20%;
+    }
+    .paragrafoQuemSou{
+        top: 25%;
+        font-size: 110%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 11%;
+    }
+    .mapaEndereco{
+        top: 26%;
+        width: 40%;
+    }
+    .tituloEndereco{
+        top: 7%;
+    }
+    .subtituloEndereco{
+        left: 52%;
+        top: 25%;
+    }
+    .paragrafoEndereco{
+        left: 24%;
+        top: 35%;
+    }
+    .tituloServico{
+        top: 2%;
+    }
+    .servico{
+        top: 22%;
+        height: 30%;
+    }
+    .servico4{
+        top: 60%;
+    }
+    .servico5{
+        top: 60%;
+    }
+    .servico6{
+        top: 60%;
+    }
+    .tituloRedes{
+        top: -5%;
+    }
+    .redes1{
+        line-height: 110%;
+    }
+    .redes2{
+        line-height: 110%;
+    }
+    .redes3{
+        line-height: 110%;
+    }
+    .redes4{
+        line-height: 110%;
+    }
+}
+@media screen and (max-width:1400px) and (max-height:1050px) {
+    .logo{
+        width: 40%;
+    }
+    h2{
+        top: 51%;
+    }
+    h3{
+        line-height: 140%;
+        width: 20%;
+        font-size: 150%;
+    }
+    h3:hover{
+        width: 25%;
+        font-size: 190%;
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 85%;
+        top: 10%;
+    }
+    .tituloQuemSou{
+        top: 1%;
+    }
+    .nomeQuemSou{
+        top: 15%;
+    }
+    .oabQuemSou{
+        top: 20%;
+    }
+    .paragrafoQuemSou{
+        top: 25%;
+        font-size: 110%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 9.5%;
+        width: 40%;
+    }
+    .fachadaAdvocacia{
+        width: 100%;
+        top: 5%;
+    }
+    .mapaEndereco{
+        top: 26%;
+        width: 40%;
+    }
+    .tituloEndereco{
+        top: 7%;
+    }
+    .subtituloEndereco{
+        left: 52%;
+        top: 25%;
+    }
+    .paragrafoEndereco{
+        left: 24%;
+        top: 35%;
+    }
+    .tituloServico{
+        top: 2%;
+    }
+    .servico{
+        top: 22%;
+        height: 25%;
+    }
+    .servico4{
+        top: 60%;
+    }
+    .servico5{
+        top: 60%;
+    }
+    .servico6{
+        top: 60%;
+    }
+    .tituloRedes{
+        top: -5%;
+    }
+    .redes1{
+        line-height: 140%;
+    }
+    .imgRedes1{
+        width: 12%;
+    }
+    .redes2{
+        line-height: 140%;
+    }
+    .imgRedes2{
+        width: 11%;
+    }
+    .redes3{
+        line-height: 140%;
+    }
+    .imgRedes3{
+        width: 11%;
+    }
+    .redes4{
+        line-height: 140%;
+    }
+    .imgRedes4{
+        width: 11%;
+    }
+    .fotoCelular{
+        width: 45%;
+    }
+}
+@media screen and (max-width:1366px) and (max-height:768px) {
+    .logo{
+        width: 30%;
+    }
+    h2{
+        top: 51%;
+    }
+    h3{
+        line-height: 150%;
+        height: 6%;
+    }
+    h3:hover{
+        height: 7%;
+        line-height: 135%;
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 85%;
+        top: 15%;
+    }
+    .tituloQuemSou{
+        top: -2%;
+    }
+    .nomeQuemSou{
+        top: 13%;
+        font-size: 150%;
+    }
+    .oabQuemSou{
+        top: 18%;
+    }
+    .paragrafoQuemSou{
+        top: 25%;
+        font-size: 100%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 7.6%;
+        width: 29%;
+    }
+    .fachadaAdvocacia{
+        width: 100%;
+        top: 5%;
+    }
+    .mapaEndereco{
+        top: 25%;
+        width: 40%;
+        height: 60%;
+    }
+    .tituloEndereco{
+        top: 4%;
+    }
+    .subtituloEndereco{
+        left: 52%;
+        top: 25%;
+    }
+    .paragrafoEndereco{
+        left: 24%;
+        top: 35%;
+    }
+    .tituloServico{
+        top: -2%;
+    }
+    .servico{
+        top: 22%;
+        height: 25%;
+        font-size: 70%;
+    }
+    .servico4{
+        top: 60%;
+    }
+    .servico5{
+        top: 60%;
+    }
+    .servico6{
+        top: 60%;
+    }
+    .tituloRedes{
+        top: -5%;
+    }
+    .redes1{
+        line-height: 110%;
+        font-size: 170%;
+    }
+    .redes1:hover{
+        width: 30%;
+        height: 7%;
+        left: 28%;
+        font-size: 200%;
+        top: 23%;
+        background-color: aliceblue;
+        color: rgb(255, 0, 149);
+    }
+    .imgRedes1{
+        width: 8%;
+    }
+    .redes2{
+        line-height: 110%;
+        font-size: 170%;
+    }
+    .redes2:hover{
+        width: 30%;
+        height: 7%;
+        left: 28%;
+        font-size: 200%;
+        top: 33%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+    }
+    .imgRedes2{
+        width: 7.5%;
+    }
+    .redes3{
+        line-height: 110%;
+        font-size: 170%;
+    }
+    .redes3:hover{
+        width: 30%;
+        height: 7%;
+        left: 28%;
+        font-size: 200%;
+        top: 44%;
+        background-color: aliceblue;
+        color: #0059FF;
+    }
+    .imgRedes3{
+        width: 7%;
+    }
+    .redes4{
+        line-height: 110%;
+        font-size: 170%;
+    }
+    .redes4:hover{
+        width: 30%;
+        height: 7%;
+        left: 28%;
+        font-size: 200%;
+        top: 55%;
+        background-color: aliceblue;
+        color: #0099ff;
+    }
+    .imgRedes4{
+        width: 7%;
+    }
+    .fotoCelular{
+        width: 35%;
+    }
+    .criador{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:1280px) and (max-height:1024px) {
+    .logo{
+        top: 1%;
+    }
+    h2{
+        top: 51%;
+    }
+    h3{
+        line-height: 130%;
+        width: 20%;
+        font-size: 150%;
+    }
+    h3:hover{
+        width: 25%;
+        height: 5%;
+        font-size: 190%;
+        top: 74%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 85%;
+        top: 15%;
+    }
+    .barraQuemSou{
+        top: 90%;
+    }
+    .tituloQuemSou{
+        top: 2%;
+    }
+    .nomeQuemSou{
+        top: 15%;
+        font-size: 150%;
+    }
+    .oabQuemSou{
+        top: 19%;
+    }
+    .paragrafoQuemSou{
+        top: 25%;
+        font-size: 120%;
+        margin-right: 42%;
+    }
+    .fotoAdvogado{
+        top: 25%;
+        width: 40%;
+        left: 55%;
+    }
+    .fachadaAdvocacia{
+        width: 100%;
+        top: 5%;
+    }
+    .mapaEndereco{
+        top: 25%;
+        left: 2%;
+        width: 50%;
+        height: 50%;
+    }
+    .tituloEndereco{
+        top: -1%;
+    }
+    .subtituloEndereco{
+        left: 55%;
+        top: 25%;
+    }
+    .paragrafoEndereco{
+        left: 27%;
+        top: 35%;
+    }
+    .tituloServico{
+        top: 3%;
+    }
+    .servico{
+        top: 26%;
+        height: 25%;
+        width: 12%;
+        font-size: 100%;
+    }
+    .servico4{
+        top: 65%;
+    }
+    .servico5{
+        top: 65%;
+    }
+    .servico6{
+        top: 65%;
+    }
+    .tituloRedes{
+        top: -5%;
+    }
+    .redes1{
+        line-height: 120%;
+        font-size: 170%;
+        height: 5%;
+    }
+    .redes1:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 23%;
+        background-color: aliceblue;
+        color: rgb(255, 0, 149);
+        line-height: 130%;
+    }
+    .imgRedes1{
+        width: 9%;
+    }
+    .redes2{
+        line-height: 125%;
+        font-size: 170%;
+        height: 5%;
+    }
+    .redes2:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 33%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 130%;
+    }
+    .imgRedes2{
+        width: 8%;
+    }
+    .redes3{
+        line-height: 120%;
+        font-size: 170%;
+        height: 5%;
+    }
+    .redes3:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 44%;
+        background-color: aliceblue;
+        color: #0059FF;
+        line-height: 130%;
+    }
+    .imgRedes3{
+        top: 20%;
+        width: 8%;
+    }
+    .redes4{
+        line-height: 120%;
+        font-size: 170%;
+        height: 5%;
+    }
+    .redes4:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 55%;
+        background-color: aliceblue;
+        color: #0099ff;
+        line-height: 130%;
+    }
+    .imgRedes4{
+        top: 20%;
+        width: 8%;
+    }
+
+    .fotoCelular{
+        width: 45%;
+        top: 20%;
+    }
+    .criador{
+        font-size: 100%;
+        top: 80%;
+    }
+}
+@media screen and (max-width:1280px) and (max-height:960px) {
+    .logo{
+        top: -10%;
+    }
+    h2{
+        top: 51%;
+    }
+    h3{
+        line-height: 130%;
+        width: 20%;
+        font-size: 150%;
+    }
+    h3:hover{
+        width: 25%;
+        height: 5%;
+        font-size: 190%;
+        top: 74%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 85%;
+        top: 15%;
+    }
+    .barraQuemSou{
+        top: 90%;
+    }
+    .tituloQuemSou{
+        top: 2%;
+    }
+    .nomeQuemSou{
+        top: 18%;
+        font-size: 180%;
+    }
+    .oabQuemSou{
+        top: 23%;
+        font-size: 120%;
+    }
+    .paragrafoQuemSou{
+        top: 35%;
+        font-size: 120%;
+        margin-right: 42%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 6%;
+        width: 41%;
+        left: 55%;
+    }
+    .fachadaAdvocacia{
+        width: 100%;
+        top: 5%;
+    }
+    .mapaEndereco{
+        top: 25%;
+        left: 2%;
+        width: 50%;
+        height: 50%;
+    }
+    .tituloEndereco{
+        top: -1%;
+    }
+    .subtituloEndereco{
+        left: 55%;
+        top: 25%;
+    }
+    .paragrafoEndereco{
+        left: 27%;
+        top: 35%;
+    }
+    .tituloServico{
+        top: 3%;
+    }
+    .servico{
+        top: 26%;
+        height: 27%;
+        width: 12%;
+        font-size: 100%;
+    }
+    .servico4{
+        top: 65%;
+    }
+    .servico5{
+        top: 65%;
+    }
+    .servico6{
+        top: 65%;
+    }
+    .tituloRedes{
+        top: -5%;
+    }
+    .redes1{
+        line-height: 120%;
+        font-size: 170%;
+        height: 5%;
+    }
+    .redes1:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 23%;
+        background-color: aliceblue;
+        color: rgb(255, 0, 149);
+        line-height: 130%;
+    }
+    .imgRedes1{
+        top: 20%;
+    }
+    .redes2{
+        line-height: 125%;
+        font-size: 170%;
+        height: 5%;
+    }
+    .redes2:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 33%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 130%;
+    }
+    .imgRedes2{
+        top: 20%;
+    }
+    .redes3{
+        line-height: 120%;
+        font-size: 170%;
+        height: 5%;
+    }
+    .redes3:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 44%;
+        background-color: aliceblue;
+        color: #0059FF;
+        line-height: 130%;
+    }
+    .imgRedes3{
+        top: 20%;
+    }
+    .redes4{
+        line-height: 120%;
+        font-size: 170%;
+        height: 5%;
+    }
+    .redes4:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 55%;
+        background-color: aliceblue;
+        color: #0099ff;
+        line-height: 130%;
+    }
+    .imgRedes4{
+        top: 20%;
+    }
+
+    .fotoCelular{
+        width: 45%;
+        top: 20%;
+    }
+    .criador{
+        font-size: 100%;
+        top: 80%;
+    }
+}
+@media screen and (max-width:1280px) and (max-height:800px) {
+    .logo{
+        top: -11%;
+    }
+    h2{
+        top: 51%;
+    }
+    h3{
+        line-height: 150%;
+        width: 20%;
+        font-size: 150%;
+        height: 5%;
+    }
+    h3:hover{
+        width: 25%;
+        height: 5%;
+        font-size: 190%;
+        top: 74%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 105%;
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 85%;
+        top: 19%;
+        width: 9%;
+    }
+    .barraQuemSou{
+        top: 100%;
+    }
+    .tituloQuemSou{
+        top: 2%;
+    }
+    .nomeQuemSou{
+        top: 18%;
+        font-size: 180%;
+    }
+    .oabQuemSou{
+        top: 24%;
+        font-size: 110%;
+    }
+    .paragrafoQuemSou{
+        top: 35%;
+        font-size: 120%;
+        margin-right: 42%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 21%;
+        width: 33%;
+        left: 55%;
+    }
+    .fachadaAdvocacia{
+        width: 100%;
+        top: 5%;
+    }
+    .mapaEndereco{
+        top: 25%;
+        left: 2%;
+        width: 50%;
+        height: 60%;
+    }
+    .tituloEndereco{
+        top: 5%;
+    }
+    .subtituloEndereco{
+        left: 55%;
+        top: 25%;
+    }
+    .paragrafoEndereco{
+        left: 27%;
+        top: 35%;
+    }
+    .tituloServico{
+        top: 3%;
+    }
+    .servico{
+        top: 26%;
+        height: 27%;
+        width: 12%;
+        font-size: 80%;
+    }
+    .servico4{
+        top: 65%;
+    }
+    .servico5{
+        top: 65%;
+    }
+    .servico6{
+        top: 65%;
+    }
+    .tituloRedes{
+        top: -5%;
+    }
+    .redes1{
+        line-height: 120%;
+        font-size: 170%;
+        height: 6%;
+    }
+    .redes1:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 23%;
+        background-color: aliceblue;
+        color: rgb(255, 0, 149);
+        line-height: 100%;
+    }
+    .imgRedes1{
+        top: 15%;
+    }
+    .redes2{
+        line-height: 125%;
+        font-size: 170%;
+        height: 6%;
+    }
+    .redes2:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 33%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 100%;
+    }
+    .imgRedes2{
+        top: 12%;
+    }
+    .redes3{
+        line-height: 120%;
+        font-size: 170%;
+        height: 6%;
+    }
+    .redes3:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 44%;
+        background-color: aliceblue;
+        color: #0059FF;
+        line-height: 100%;
+    }
+    .imgRedes3{
+        top: 10%;
+    }
+    .redes4{
+        line-height: 120%;
+        font-size: 170%;
+        height: 6%;
+    }
+    .redes4:hover{
+        width: 28%;
+        height: 6%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 55%;
+        background-color: aliceblue;
+        color: #0099ff;
+        line-height: 100%;
+    }
+    .imgRedes4{
+        top: 10%;
+    }
+
+    .fotoCelular{
+        width: 40%;
+        top: 10%;
+    }
+    .criador{
+        font-size: 100%;
+        top: 80%;
+    }
+}
+@media screen and (device-width:1280px) and (device-height:768px) {
+   
+    .fotoAdvogado{
+        position: absolute;
+        top: 18.7%;
+        width: 33%;
+        left: 55%;
+    }
+    h3:hover{
+        line-height: 120%;
+    }
+}
+@media screen and (max-width:1280px) and (max-height:720px) {
+    .logo{
+        top: -7%;
+    }
+    h2{
+        top: 51%;
+    }
+    h3{
+        line-height: 120%;
+        width: 20%;
+        font-size: 140%;
+        height: 5%;
+    }
+    h3:hover{
+        width: 25%;
+        height: 6%;
+        font-size: 190%;
+        top: 74%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 105%;
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 85%;
+        top: 14%;
+        width: 8%;
+    }
+    .barraQuemSou{
+        top: 100%;
+    }
+    .tituloQuemSou{
+        top: 2%;
+    }
+    .nomeQuemSou{
+        top: 18%;
+        font-size: 150%;
+    }
+    .oabQuemSou{
+        top: 24%;
+        font-size: 90%;
+    }
+    .paragrafoQuemSou{
+        top: 35%;
+        font-size: 100%;
+        margin-right: 42%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 9.5%;
+        width: 28%;
+        left: 55%;
+    }
+    .fachadaAdvocacia{
+        width: 100%;
+        top: 5%;
+    }
+    .mapaEndereco{
+        top: 35%;
+        left: 10%;
+        width: 40%;
+        height: 50%;
+    }
+    .tituloEndereco{
+        top: 5%;
+    }
+    .subtituloEndereco{
+        left: 55%;
+        top: 35%;
+    }
+    .paragrafoEndereco{
+        left: 27%;
+        top: 45%;
+    }
+    .tituloServico{
+        top: 3%;
+    }
+    .servico{
+        top: 26%;
+        height: 30%;
+        width: 12%;
+        font-size: 80%;
+    }
+    .servico4{
+        top: 65%;
+    }
+    .servico5{
+        top: 65%;
+    }
+    .servico6{
+        top: 65%;
+    }
+    .tituloRedes{
+        top: -5%;
+    }
+    .redes1{
+        line-height: 120%;
+        font-size: 170%;
+        height: 7%;
+    }
+    .redes1:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 23%;
+        background-color: aliceblue;
+        color: rgb(255, 0, 149);
+        line-height: 100%;
+    }
+    .imgRedes1{
+        top: 15%;
+    }
+    .redes2{
+        line-height: 125%;
+        font-size: 170%;
+        height: 7%;
+    }
+    .redes2:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 33%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 100%;
+    }
+    .imgRedes2{
+        top: 12%;
+    }
+    .redes3{
+        line-height: 120%;
+        font-size: 170%;
+        height: 7%;
+    }
+    .redes3:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 44%;
+        background-color: aliceblue;
+        color: #0059FF;
+        line-height: 100%;
+    }
+    .imgRedes3{
+        top: 10%;
+    }
+    .redes4{
+        line-height: 120%;
+        font-size: 170%;
+        height: 7%;
+    }
+    .redes4:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 200%;
+        top: 55%;
+        background-color: aliceblue;
+        color: #0099ff;
+        line-height: 100%;
+    }
+    .imgRedes4{
+        top: 10%;
+    }
+
+    .fotoCelular{
+        width: 40%;
+        top: 10%;
+    }
+    .criador{
+        font-size: 100%;
+        top: 80%;
+    }
+}
+@media screen and (max-width:1024px) and (max-height:768px) {
+    .logo{
+        top: -7%;
+    }
+    h1{
+        top: 30%;
+    }
+    h2{
+        top: 45%;
+    }
+    p{
+        top: 55%;
+    }
+    h3{
+        line-height: 140%;
+        width: 20%;
+        font-size: 140%;
+        height: 5%;
+    }
+    h3:hover{
+        width: 25%;
+        height: 5%;
+        font-size: 170%;
+        top: 74%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 105%;
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 87%;
+        top: 14%;
+        width: 10%;
+    }
+    .barraQuemSou{
+        top: 100%;
+    }
+    .tituloQuemSou{
+        top: -1%;
+    }
+    .nomeQuemSou{
+        top: 18%;
+        font-size: 140%;
+    }
+    .oabQuemSou{
+        top: 23%;
+        font-size: 90%;
+    }
+    .paragrafoQuemSou{
+        top: 35%;
+        font-size: 100%;
+        margin-right: 42%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 16.5%;
+        width: 35%;
+        left: 55%;
+    }
+    .fachadaAdvocacia{
+        width: 100%;
+        top: 5%;
+    }
+    .mapaEndereco{
+        top: 35%;
+        left: 10%;
+        width: 40%;
+        height: 50%;
+    }
+    .tituloEndereco{
+        top: 5%;
+    }
+    .subtituloEndereco{
+        left: 55%;
+        top: 35%;
+    }
+    .paragrafoEndereco{
+        left: 27%;
+        top: 45%;
+        margin-right: 20%;
+    }
+    .tituloServico{
+        top: 0%;
+    }
+    .servico{
+        top: 26%;
+        height: 30%;
+        width: 12%;
+        font-size: 80%;
+    }
+    .servico4{
+        top: 65%;
+    }
+    .servico5{
+        top: 65%;
+    }
+    .servico6{
+        top: 65%;
+    }
+    .tituloRedes{
+        top: 1%;
+    }
+    .redes1{
+        line-height: 120%;
+        font-size: 150%;
+        height: 6%;
+    }
+    .redes1:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 170%;
+        top: 23%;
+        background-color: aliceblue;
+        color: rgb(255, 0, 149);
+        line-height: 130%;
+    }
+    .imgRedes1{
+        top: 15%;
+    }
+    .redes2{
+        line-height: 125%;
+        font-size: 150%;
+        height: 6%;
+    }
+    .redes2:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 170%;
+        top: 33%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 130%;
+    }
+    .imgRedes2{
+        top: 12%;
+    }
+    .redes3{
+        line-height: 120%;
+        font-size: 150%;
+        height: 6%;
+    }
+    .redes3:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 170%;
+        top: 44%;
+        background-color: aliceblue;
+        color: #0059FF;
+        line-height: 130%;
+    }
+    .imgRedes3{
+        top: 10%;
+    }
+    .redes4{
+        line-height: 120%;
+        font-size: 150%;
+        height: 6%;
+    }
+    .redes4:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 170%;
+        top: 55%;
+        background-color: aliceblue;
+        color: #0099ff;
+        line-height: 130%;
+    }
+    .imgRedes4{
+        top: 10%;
+    }
+
+    .fotoCelular{
+        width: 40%;
+        top: 20%;
+    }
+    .criador{
+        font-size: 90%;
+        top: 80%;
+    }
+    footer{
+        top: 390%;
+        height: 80%;
+    }
+}
+@media screen and (max-width:800px) and (max-height:600px) {
+    .logo{
+        top: -7%;
+    }
+    h1{
+        top: 30%;
+        font-size: 160%;
+    }
+    h2{
+        top: 40%;
+        font-size: 100%;
+    }
+    p{
+        top: 50%;
+        font-size: 80%;
+    }
+    h3{
+        line-height: 140%;
+        width: 20%;
+        font-size: 100%;
+        height: 5%;
+    }
+    h3:hover{
+        width: 25%;
+        height: 5%;
+        font-size: 130%;
+        top: 74%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 105%;
+    }
+    .whatsappLogo{
+        position: absolute;
+        left: 87%;
+        top: 14%;
+        width: 10%;
+    }
+    .barraQuemSou{
+        top: 100%;
+    }
+    .tituloQuemSou{
+        top: -1%;
+    }
+    .nomeQuemSou{
+        top: 18%;
+        font-size: 100%;
+    }
+    .oabQuemSou{
+        top: 23%;
+        font-size: 70%;
+    }
+    .paragrafoQuemSou{
+        top: 35%;
+        font-size: 70%;
+        margin-right: 42%;
+    }
+    .fotoAdvogado{
+        position: absolute;
+        top: 12%;
+        width: 35%;
+        left: 55%;
+    }
+    .fachadaAdvocacia{
+        width: 100%;
+        top: 5%;
+    }
+    .mapaEndereco{
+        top: 35%;
+        left: 10%;
+        width: 40%;
+        height: 50%;
+    }
+    .tituloEndereco{
+        top: 5%;
+    }
+    .subtituloEndereco{
+        left: 55%;
+        top: 35%;
+    }
+    .paragrafoEndereco{
+        left: 27%;
+        top: 45%;
+        margin-right: 20%;
+    }
+    .tituloServico{
+        top: 0%;
+    }
+    .servico{
+        top: 26%;
+        height: 30%;
+        width: 12%;
+        font-size: 80%;
+    }
+    .servico4{
+        top: 65%;
+    }
+    .servico5{
+        top: 65%;
+    }
+    .servico6{
+        top: 65%;
+    }
+    .tituloRedes{
+        top: 1%;
+    }
+    .redes1{
+        line-height: 120%;
+        font-size: 100%;
+        height: 6%;
+    }
+    .redes1:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 120%;
+        top: 23%;
+        background-color: aliceblue;
+        color: rgb(255, 0, 149);
+        line-height: 130%;
+    }
+    .imgRedes1{
+        top: 15%;
+    }
+    .redes2{
+        line-height: 125%;
+        font-size: 100%;
+        height: 6%;
+    }
+    .redes2:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 120%;
+        top: 33%;
+        background-color: aliceblue;
+        color: rgb(0, 255, 115);
+        line-height: 130%;
+    }
+    .imgRedes2{
+        top: 12%;
+        width: 9%;
+    }
+    .redes3{
+        line-height: 120%;
+        font-size: 100%;
+        height: 6%;
+    }
+    .redes3:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 120%;
+        top: 44%;
+        background-color: aliceblue;
+        color: #0059FF;
+        line-height: 130%;
+    }
+    .imgRedes3{
+        top: 10%;
+        width: 9%;
+    }
+    .redes4{
+        line-height: 120%;
+        font-size: 100%;
+        height: 6%;
+    }
+    .redes4:hover{
+        width: 28%;
+        height: 7%;
+        left: 28.6%;
+        font-size: 120%;
+        top: 55%;
+        background-color: aliceblue;
+        color: #0099ff;
+        line-height: 130%;
+    }
+    .imgRedes4{
+        top: 10%;
+    }
+
+    .fotoCelular{
+        width: 40%;
+        top: 20%;
+    }
+    .criador{
+        font-size: 80%;
+        top: 80%;
+    }
+    footer{
+        top: 390%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    .logo{
+        width: 70%;
+    }
+    h1{
+        font-size: 200%;
+    }
+    h2{
+        font-size: 120%;
+        top: 45%;
+    }
+    p{
+        top: 52%;
+        margin-inline: 20%;
+    }
+    h3{
+        width: 30%;
+    }
+    h3:hover{
+        width: 35%;
+        line-height: 120%;
+    }
+    .fotoAdvogado{
+        width: 55%;
+        left: 45%;
+    }
+    .nomeQuemSou{
+        left: 5%;
+    }
+    .oabQuemSou{
+        left: 5%;
+    }
+    .paragrafoQuemSou{
+        left: -15%;
+        top: 30%;
+        margin-right:47%;
+    }
+    .barraEndereco{
+        display: flex;
+        justify-content: center; 
+    }
+    .tituloEndereco{
+        top: 10%;
+    }
+    .subtituloEndereco{
+        top: 19%;
+        left: 40%;
+        
+    }
+    .paragrafoEndereco{
+        margin-inline: 10%;
+        text-align: center;
+        top: 25%;
+    }
+    .mapaEndereco{
+        top: 55%;
+        width: 90%;
+        left: 5%;
+    }
+    .barraServico{
+        top: 320%;
+        height: 130%;
+    }
+    .servico1{
+        width: 30%;
+        left: 13%;
+        top: 22%;
+        height: 19%;
+    }
+    .servico2{
+        width: 30%;
+        top: 22%;
+        left: 55%;
+        height: 19%;
+    }
+    .servico3{
+        top: 48%;
+        left: 13%;
+        width: 30%;
+        height: 19%;
+    }
+    .servico4{
+        width: 30%;
+        left: 55%;
+        top: 48%;
+        height: 19%;
+    }
+    .servico5{
+        width: 30%;
+        left: 13%;
+        top: 74%;
+        height: 19%;
+    }
+    .servico6{
+        width: 30%;
+        left: 55%;
+        top: 74%;
+        height: 19%;
+    }
+    footer{
+        top: 450%;
+    }
+    .tituloRedes{
+        top: 3%;
+    }
+    .redes1{
+        width: 35%;
+        line-height: 130%;
+        left: 10%;
+        top: 25%;
+    }
+    .redes2{
+        width: 35%;
+        line-height: 130%;
+        left: 10%;
+    }
+    .redes3{
+        width: 35%;
+        line-height: 130%;
+        left: 10%;
+    }
+    .redes4{
+        width: 35%;
+        line-height: 130%;
+        left: 10%;
+    }
+    .imgRedes1{
+        left: 88%;
+        top: 21%;
+    }
+    .imgRedes2{
+        left: 88%;
+        top: 21%;
+    }
+    .imgRedes3{
+        left: 88%;
+        top: 21%;
+    }
+    .imgRedes4{
+        left: 88%;
+        top: 21%;
+    }
+    .redes1:hover{
+        width: 39%;
+        line-height: 130%;
+        left: 8%;
+    }
+    .redes2:hover{
+        width: 39%;
+        line-height: 130%;
+        left: 8%;
+    }
+    .redes3:hover{
+        width: 39%;
+        line-height: 130%;
+        left: 8%;
+    }
+    .redes4:hover{
+        width: 39%;
+        line-height: 130%;
+        left: 8%;
+    }
+    .fotoCelular{
+        top: 15%;
+        left: 40%;
+        width: 60%;
+    }
+    .criador{
+        text-align: center;
+        left: 30%;
+    }
+}
