@@ -151,17 +151,20 @@ h3:hover{
     position: absolute;
     top: 35%;
     left: 10%;
+    width: 40%;
 }
 .subtituloEndereco{
     box-sizing: border-box;
     position: absolute;
     top: 35%;
+    margin-left: 20%;
 }
 .paragrafoEndereco{
     box-sizing: border-box;
     position: absolute;
     top: 45%;
     text-align: left;
+    margin-left: 48%;
 }
 .barraEndereco{
     box-sizing: border-box;
@@ -1933,36 +1936,13 @@ footer{
         height: 80%;
     }
 }
-@media screen and (max-width: 2560px) {
-    h1{
-        
-    }
-    h2{
-        
-    }
-    p{
-        
-    }
-    h3{
-        
-    }
-    h3:hover{
-        
-    }
-    .whatsappLogo{
-       
-    }
+@media screen and (min-width: 2560px) {
+
     .fotoAdvogado{
         height: 95%;
     }
     .mapaEndereco{
         width: 40%;
-    }
-    .subtituloEndereco{
-        
-    }
-    .paragrafoEndereco{
-        
     }
     .imgRedes1{
         width: 8%;
@@ -1980,9 +1960,7 @@ footer{
         width: 6.5%;
         top: 8%;
     }
-    .fotoCelular{
-        
-    }
+    
 }
 
 @media screen and (max-width:768px) {
