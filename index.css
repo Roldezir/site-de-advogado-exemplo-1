@@ -2149,6 +2149,30 @@ footer{
         top: 74%;
         height: 19%;
     }
+    .ts1{
+        margin-top: 10%;
+        font-size: 150%;
+    }
+    .ts2{
+        margin-top: 10%;
+        font-size: 150%;
+    }
+    .ts3{
+        margin-top: 10%;
+        font-size: 150%;
+    }
+    .ts4{
+        margin-top: 10%;
+        font-size: 150%;
+    }
+    .ts5{
+        margin-top: 10%;
+        font-size: 150%;
+    }
+    .ts6{
+        margin-top: 10%;
+        font-size: 150%;
+    }
     .redes1{
         left: 0%;
         width: 45%;
@@ -2167,8 +2191,8 @@ footer{
     .imgRedes1{
         top: 0%;
         width: 10%;
-        margin-top: 2.5%;
-        left: 89%;
+        margin-top: 1%;
+        left: 87%;
     }
     .redes2{
         left: 0%;
@@ -2188,8 +2212,8 @@ footer{
     .imgRedes2{
         top: 0%;
         width: 10%;
-        margin-top: 2.5%;
-        left: 89%;
+        margin-top: 1%;
+        left: 87%;
     }
     .redes3{
         left: 0%;
@@ -2208,9 +2232,8 @@ footer{
     }
     .imgRedes3{
         top: 0%;
-        width: 10%;
-        margin-top: 2.5%;
-        left: 89%;
+        margin-top: 2%;
+        left: 87%;
     }
     .redes4{
         left: 0%;
@@ -2230,8 +2253,8 @@ footer{
     .imgRedes4{
         top: 0%;
         width: 10%;
-        margin-top: 2.5%;
-        left: 89%;
+        margin-top: 1%;
+        left: 87%;
     }
     .fotoCelular{
         width: 55%;
