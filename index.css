@@ -2007,56 +2007,36 @@ footer{
     h1{
         text-align: center;
         font-size: 170%;
-        margin-top: 5%;
+        margin-top: 75%;
         margin-inline: 5%;
         top: 0%;
     }
     h2{
         margin-inline: 5%;
-        margin-top: 10%;
+        margin-top: 95%;
         top: 0%;
         font-size: 100%;
         text-align: center;
     }
     p{
         margin-inline: 5%;
-        margin-top: 5%;
-    }
-    #titulo1{
-        text-align: center;
-        font-size: 170%;
-        margin-top: 5%;
-        margin-inline: 5%;
-        top: 0%;
-        margin-top: 75%;
-    }
-    #titulo2{
-        margin-inline: 5%;
-        margin-top: 100%;
-        top: 0%;
-        font-size: 100%;
-        text-align: center;
-    }
-    #paragrafo1{
-        margin-inline: 5%;
-        margin-top: 115%;
-        top: 0%;
+        margin-top: 15%;
     }
     h3{
         width: 50%;
         font-size: 120%;
         line-height: 170%;
-        top: 70%;
+        top: 80%;
     }
     h3:hover{
         width: 60%;
         font-size: 135%;
-        line-height: 200%;
-        top: 69%;
+        line-height: 180%;
+        top: 79%;
     }
     .whatsappLogo{
         width: 9%;
-        top: 25%;
+        top: 24%;
     }
     .barraQuemSou{
         height: 70%;
