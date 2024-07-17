@@ -1971,24 +1971,24 @@ footer{
         margin-inline: 5%;
         margin-top: 5%;
     }
-    .titulo1{
+    #titulo1{
         text-align: center;
         font-size: 170%;
         margin-top: 5%;
         margin-inline: 5%;
         top: 0%;
-        margin-top: 60%;
+        margin-top: 65%;
     }
-    .titulo2{
+    #titulo2{
         margin-inline: 5%;
-        margin-top: 70%;
+        margin-top: 75%;
         top: 0%;
         font-size: 100%;
         text-align: center;
     }
-    .paragrafo1{
+    #paragrafo1{
         margin-inline: 5%;
-        margin-top: 80%;
+        margin-top: 85%;
         top: 0%;
     }
     h3{
